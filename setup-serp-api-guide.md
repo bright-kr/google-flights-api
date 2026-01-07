@@ -1,22 +1,22 @@
-# Setup Bright Data SERP API
+# Bright Data SERP API 설정
 
-### Step 1: Access the Dashboard
-- [Log in](https://brightdata.com/cp/start) to your Bright Data account
-- Navigate to "Proxies & Scraping" in the left-hand menu
-- Select "SERP API" and click "Get Started"
+### Step 1: 대시보드에 액세스
+- [Log in](https://brightdata.co.kr/cp/start)하여 Bright Data 계정에 로그인합니다
+- 왼쪽 메뉴에서 "Proxies & Scraping"으로 이동합니다
+- "SERP API"를 선택하고 "Get Started"를 클릭합니다
 
 <img width="800" alt="bright-data-serp-api-proxies-scraping-infrastructure" src="https://github.com/user-attachments/assets/5cfb7f6c-6043-46c2-acd2-60f352907f8f" />
 
-### Step 2: Create a Zone
-- Enter a descriptive Zone name (can't be changed once created)
-- Click "Add"
-- Confirm zone creation in the popup dialog
+### Step 2: Zone 생성
+- 설명적인 Zone 이름을 입력합니다(생성 후 변경할 수 없습니다)
+- "Add"를 클릭합니다
+- 팝업 대화상자에서 Zone 생성을 확인합니다
 
 <img width="800" alt="bright-data-add-new-serp-api-zone" src="https://github.com/user-attachments/assets/e72f67ea-9b82-413d-82cc-fc1027e0a623" />
 
-### Step 3: Access Credentials
-- Once created, you'll be directed to the Overview page
-- Find your credentials under two tabs:
+### Step 3: 자격 증명에 액세스
+- 생성이 완료되면 Overview 페이지로 이동합니다
+- 두 개의 탭에서 자격 증명을 확인합니다:
     - Direct API Access
     - Native Proxy-Based Access
 
