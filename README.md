@@ -1,6 +1,6 @@
 # Google Flights Scraper
 
-[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/products/web-scraper/google-flights)
+[![Promo](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/products/web-scraper/google-flights)
 
 이 리포지토리는 Google Flights에서 항공편 데이터를 추출하는 두 가지 방법을 제공합니다:
 
@@ -27,7 +27,7 @@
 ## Free Scraper
 Google Flights에서 제한된 데이터 추출을 위한 빠르고 간단한 スクレイピング 도구입니다.
 
-<img width="800" alt="google-flights-scraper" src="https://github.com/luminati-io/google-flights-api/blob/main/images/424383720-44ae10b1-4974-497e-9a7c-c1a762614f0e.png" />
+<img width="800" alt="google-flights-scraper" src="https://github.com/bright-kr/google-flights-api/blob/main/images/424383720-44ae10b1-4974-497e-9a7c-c1a762614f0e.png" />
 
 ### Setup Requirements
 - [Python 3.9+](https://www.python.org/downloads/)
@@ -42,7 +42,7 @@ playwright install chromium
 >
 
 ### Quick Start
-1. [google-flights-scraper.py](https://github.com/luminati-io/google-flights-api/blob/main/google-flights-scraper/google-flights-scraper.py)를 여십시오.
+1. [google-flights-scraper.py](https://github.com/bright-kr/google-flights-api/blob/main/google-flights-scraper/google-flights-scraper.py)를 여십시오.
 2. 다음 변수를 업데이트하십시오:
     - `url`: Google Flights URL을 붙여 넣으십시오(일반적으로 `tfs`를 포함합니다).
 3. 스크립트를 실행하십시오.
@@ -63,7 +63,7 @@ playwright install chromium
 }
 ```
 
-👉  [전체 출력 샘플 보기](https://github.com/luminati-io/google-flights-api/blob/main/google-flights-results/flight_results.json)
+👉  [전체 출력 샘플 보기](https://github.com/bright-kr/google-flights-api/blob/main/google-flights-results/flight_results.json)
 
 
 ### Limitations
@@ -92,7 +92,7 @@ playwright install chromium
 
 1. [Bright Data 계정 생성](https://brightdata.co.kr/) (신규 사용자는 $5 크레딧을 받습니다).
 2. [API key](https://docs.brightdata.com/general/account/api-token)를 생성하십시오.
-3. [단계별 가이드](https://github.com/luminati-io/google-flights-api/blob/main/setup-serp-api-guide.md)를 따라 SERP API를 구성하고 자격 증명을 설정하십시오.
+3. [단계별 가이드](https://github.com/bright-kr/google-flights-api/blob/main/setup-serp-api-guide.md)를 따라 SERP API를 구성하고 자격 증명을 설정하십시오.
 
 ### Direct API Access
 
@@ -169,7 +169,7 @@ with open("google-flights-data.html", "w", encoding="utf-8") as file:
 print("Response saved to 'google-flights-data.html'.")
 ```
 
-👉 [전체 HTML 출력 보기](https://github.com/luminati-io/google-flights-api/blob/main/google-flights-api-output/google-flights-data.html).
+👉 [전체 HTML 출력 보기](https://github.com/bright-kr/google-flights-api/blob/main/google-flights-api-output/google-flights-data.html).
 
 **Note:** 프로덕션 용도에서는 [SSL Certificate Guide](https://docs.brightdata.com/general/account/ssl-certificate)에 따라 Bright Data의 SSL 인증서를 로드하십시오.
 
@@ -178,7 +178,7 @@ print("Response saved to 'google-flights-data.html'.")
 다음 선택적 파라미터로 Google Flights 데이터 추출을 세밀하게 조정할 수 있습니다.
 
 ### Localization Parameters
-<img width="800" alt="bright-data-google-flights-api-localization" src="https://github.com/luminati-io/google-flights-api/blob/main/images/424454961-e77f10c9-8e44-46aa-be3d-64c756741479.png" />
+<img width="800" alt="bright-data-google-flights-api-localization" src="https://github.com/bright-kr/google-flights-api/blob/main/images/424454961-e77f10c9-8e44-46aa-be3d-64c756741479.png" />
 
 위치 및 언어에 따라 검색 결과를 사용자 지정하십시오:
 
@@ -197,7 +197,7 @@ curl --proxy brd.superproxy.io:33335 --proxy-user brd-customer-<customer-id>-zon
 
 ### Currency Parameter
 
-<img width="800" alt="bright-data-google-flights-api-currency" src="https://github.com/luminati-io/google-flights-api/blob/main/images/424820088-c571e99f-b854-449e-abc2-60149611ad5b.png" />
+<img width="800" alt="bright-data-google-flights-api-currency" src="https://github.com/bright-kr/google-flights-api/blob/main/images/424820088-c571e99f-b854-449e-abc2-60149611ad5b.png" />
 
 `curr` 파라미터를 사용하여 반환되는 가격의 통화를 정의하십시오.
 
@@ -211,7 +211,7 @@ curl --proxy brd.superproxy.io:33335 --proxy-user brd-customer-<customer-id>-zon
 ## Support & Resources
 
 - **Docs:** [SERP API Documentation](https://docs.brightdata.com/scraping-automation/serp-api/)
-- **Related APIs:** [Web Unlocker API](https://github.com/luminati-io/web-unlocker-api), [SERP API](https://github.com/luminati-io/serp-api), [Google Search API](https://github.com/luminati-io/google-search-api), [Google News Scraper](https://github.com/luminati-io/Google-News-Scraper), [Google Trends API](https://github.com/luminati-io/google-trends-api), [Google Reviews API](https://github.com/luminati-io/google-reviews-api), [Google Hotels API](https://github.com/luminati-io/google-hotels-api)
+- **Related APIs:** [Web Unlocker API](https://github.com/bright-kr/web-unlocker-api), [SERP API](https://github.com/bright-kr/serp-api), [Google Search API](https://github.com/bright-kr/google-search-api), [Google News Scraper](https://github.com/bright-kr/Google-News-Scraper), [Google Trends API](https://github.com/bright-kr/google-trends-api), [Google Reviews API](https://github.com/bright-kr/google-reviews-api), [Google Hotels API](https://github.com/bright-kr/google-hotels-api)
 - **Google スクレイピング 튜토리얼:**
     - [How to Scrape Google Flights](https://brightdata.co.kr/blog/web-data/how-to-scrape-google-flights)
     - [How to Scrape Google Search Results](https://brightdata.co.kr/blog/web-data/scraping-google-with-python)
