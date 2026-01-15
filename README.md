@@ -25,7 +25,7 @@
 5. [Support & Resources](#support--resources)
 
 ## Free Scraper
-Google Flights에서 제한된 데이터 추출을 위한 빠르고 간단한 スクレイピング 도구입니다.
+Google Flights에서 제한된 데이터 추출을 위한 빠르고 간단한 스크레이핑 도구입니다.
 
 <img width="800" alt="google-flights-scraper" src="https://github.com/bright-kr/google-flights-api/blob/main/images/424383720-44ae10b1-4974-497e-9a7c-c1a762614f0e.png" />
 
@@ -38,7 +38,7 @@ pip install playwright
 playwright install chromium
 ```
 
-> **Webスクレイピング이 처음이신가요?** [Python으로 Webスクレイピング 시작하기 가이드](https://brightdata.co.kr/blog/how-tos/web-scraping-with-python)를 확인해 보시기 바랍니다.
+> **Web스크레이핑이 처음이신가요?** [Python으로 Web스크레이핑 시작하기 가이드](https://brightdata.co.kr/blog/how-tos/web-scraping-with-python)를 확인해 보시기 바랍니다.
 >
 
 ### Quick Start
@@ -73,17 +73,17 @@ playwright install chromium
 - CAPTCHA가 자주 발생합니다
 - 프로덕션 용도로는 신뢰성이 낮습니다
 
-이러한 제한 없이 견고하고 확장 가능한 スクレイピング을 위해서는 아래의 Bright Data 전용 API를 고려해 보시기 바랍니다. 👇
+이러한 제한 없이 견고하고 확장 가능한 스크레이핑을 위해서는 아래의 Bright Data 전용 API를 고려해 보시기 바랍니다. 👇
 
 ## Google Flights Scraper API
-[Bright Data의 Google Flights Scraper API](https://brightdata.co.kr/products/web-scraper/google-flights)는 [SERP Scraping API](https://brightdata.co.kr/products/serp-api)에 통합되어 있으며, 광범위한 [プロキシ network](https://brightdata.co.kr/proxy-types)를 활용하여 CAPTCHA나 IP 차단 없이 가격, 일정, 항공사 상세 정보를 포함한 실시간 항공편 데이터를 대규모로 추출합니다.
+[Bright Data의 Google Flights Scraper API](https://brightdata.co.kr/products/web-scraper/google-flights)는 [SERP Scraping API](https://brightdata.co.kr/products/serp-api)에 통합되어 있으며, 광범위한 [프록시 network](https://brightdata.co.kr/proxy-types)를 활용하여 CAPTCHA나 IP 차단 없이 가격, 일정, 항공사 상세 정보를 포함한 실시간 항공편 데이터를 대규모로 추출합니다.
 
 ### Key Features
 
 - **글로벌 정확도:** 특정 위치에 맞춘 결과를 제공합니다
 - **성공 기반 과금(Pay-Per-Success):** 성공한 리クエスト에 대해서만 비용이 청구됩니다
 - **실시간 데이터:** 최신 항공편 데이터를 몇 초 만에 가져옵니다
-- **무제한 확장성:** 대용량 スクレイピング을 손쉽게 처리합니다
+- **무제한 확장성:** 대용량 스크레이핑을 손쉽게 처리합니다
 - **비용 효율적:** 비용이 큰 인프라 필요성을 제거합니다
 - **신뢰할 수 있는 성능:** 내장된 anti-blocking 기술을 제공합니다
 - **24/7 전문가 지원:** 필요 시 언제든지 지원을 받을 수 있습니다
@@ -96,7 +96,7 @@ playwright install chromium
 
 ### Direct API Access
 
-API エンドポイント로 직접 리クエ스트를 보내십시오.
+API 엔드포인트로 직접 리クエ스트를 보내십시오.
 
 **cURL Example:**
 
@@ -133,7 +133,7 @@ print("HTML response saved to 'google-flights-data.html'.")
 
 ### Native Proxy-Based Access
 
-대신 Bright Data의 プロキシ 라우팅 방식을 사용할 수 있습니다.
+대신 Bright Data의 프록시 라우팅 방식을 사용할 수 있습니다.
 
 **cURL Example:**
 
@@ -212,7 +212,7 @@ curl --proxy brd.superproxy.io:33335 --proxy-user brd-customer-<customer-id>-zon
 
 - **Docs:** [SERP API Documentation](https://docs.brightdata.com/scraping-automation/serp-api/)
 - **Related APIs:** [Web Unlocker API](https://github.com/bright-kr/web-unlocker-api), [SERP API](https://github.com/bright-kr/serp-api), [Google Search API](https://github.com/bright-kr/google-search-api), [Google News Scraper](https://github.com/bright-kr/Google-News-Scraper), [Google Trends API](https://github.com/bright-kr/google-trends-api), [Google Reviews API](https://github.com/bright-kr/google-reviews-api), [Google Hotels API](https://github.com/bright-kr/google-hotels-api)
-- **Google スクレイピング 튜토리얼:**
+- **Google 스크레이핑 튜토리얼:**
     - [How to Scrape Google Flights](https://brightdata.co.kr/blog/web-data/how-to-scrape-google-flights)
     - [How to Scrape Google Search Results](https://brightdata.co.kr/blog/web-data/scraping-google-with-python)
     - [How to Scrape Google Maps](https://brightdata.co.kr/blog/web-data/how-to-scrape-google-maps)
